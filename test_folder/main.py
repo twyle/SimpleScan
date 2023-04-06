@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Module docstring."""
 from task import generate_two_numbers, add_two_numbers
 
 if __name__ == '__main__':
