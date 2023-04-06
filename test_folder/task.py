@@ -39,4 +39,4 @@ def add_two_numbers(int_one: int, int_two: int) -> int:
         raise TypeError('The arguments have to be integers.')
     if int_one < 0 or int_one > 5 or int_two < 0 or int_two > 5:
         raise ValueError('Arguments cannot be greater thn 5 or less than 0.')
-    return sum(int_one, int_two)
+    return sum([int_one, int_two])
